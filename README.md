@@ -61,7 +61,6 @@ The reason for using nested loops is to compare every possible pair of buy and s
 ### The Purpose of Nested Loops
 
 - The nested loops allow you to systematically explore every "buy day" and "sell day" pair. This brute-force approach ensures you don't miss any combination that could potentially yield the highest profit.
-- While this might not be the most efficient method for very large arrays (due to its O(n^2) time complexity), it's a straightforward and reliable way to find the correct answer for the problem at hand.
 
 ### Understanding Through a Simplified Example
 
@@ -75,4 +74,6 @@ Without checking every possible buy-sell combination, you might incorrectly assu
 
 ### Conclusion
 
-The nested loop structure is essential for exhaustively comparing all possible buy and sell day combinations to find the one that maximizes profit, adhering to the constraint that selling must occur after buying.
+The nested loop structure is essential for exhaustively comparing all possible buy and sell day combinations to find the one that maximises profit, adhering to the constraint that selling must occur after buying.
+
+I struggled a bit with the logic here, but going over it a few times it finally clicked. Nested loops can be hard to get my head around it seems.
